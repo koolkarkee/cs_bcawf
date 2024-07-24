@@ -43,6 +43,20 @@ namespace ConsoleApp1.Demos
             Console.WriteLine("-----------------------------\n");
         }
 
+
+        public static void DisplayMultiplicationTable(int n, int start, int end, int steps) 
+        { 
+            Console.WriteLine($"Multiplication table of {n}");
+            Console.WriteLine("-----------------------------");
+
+            for (int i = start; i <= end ; i = i + steps)
+            {
+                Console.WriteLine($"{n} * \t{i} \t= \t{n * i}");
+            } 
+
+            Console.WriteLine("-----------------------------");
+        }
+
         public static void DisplayCharArray()
         {
             char a = 'H';

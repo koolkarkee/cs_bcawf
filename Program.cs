@@ -61,9 +61,22 @@ internal class Program
         //StringDemo.DisplayMultiplicationTable(13);
         //StringDemo.DisplayMultiplicationTable(20);
         //StringDemo.DisplayCharArray();
-        LoopDemo.DisplayLoop(1, 1, 10, 1);
-        LoopDemo.DisplayLoop(1, 1, 10, 2);
-        LoopDemo.DisplayLoop(1, 1, 1);
+
+        //LoopDemo.DispalySimpleLoop();
+        //LoopDemo.DisplayLoop(1, 1, 10, 1);
+        //LoopDemo.DisplayLoop(1, 1, 10, 2);
+        //LoopDemo.DisplayLoop(1, 100, 2000, 100);
+        //LoopDemo.DisplayLoop(1, 1, 1);
+
+        //LoopDemo.DisplaySwitchCase(2);
+        //LoopDemo.DisplaySwitchCase(5);
+        //LoopDemo.DisplaySwitchCase(100);
+
+        //StringDemo.DisplayMultiplicationTable(2, 11, 20, 2);
+        //StringDemo.DisplayMultiplicationTable(10, 100, 200, 5);
+
+        LoopDemo.DisplayForeach();
+
 
     }
 }
