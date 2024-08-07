@@ -7,6 +7,8 @@
  multi line comemnt in C# */
 using ConsoleApp1.Demos;
 using ConsoleApp1.Model;
+using CSharp_Fundamentals.Demos;
+using CSharp_Fundamentals.Helper;
 
 //Console.WriteLine("------------------------------------------");
 //Console.WriteLine("SN\tName\t\tRoll Number");
@@ -75,8 +77,15 @@ internal class Program
         //StringDemo.DisplayMultiplicationTable(2, 11, 20, 2);
         //StringDemo.DisplayMultiplicationTable(10, 100, 200, 5);
 
-        LoopDemo.DisplayForeach();
+        //LoopDemo.DisplayForeach();
 
+        //ConversionDemo.DisplayConversion(20);
+        //ConversionDemo.ShowCoalese(null);
+        //ConversionDemo.ShowAssociativiy();
+
+        Console.WriteLine(SqlHelper.IsConnected() ? 
+            "Connected Successfully" : 
+            "Not Connected Successfully");
 
     }
 }
