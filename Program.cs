@@ -87,5 +87,6 @@ internal class Program
             "Connected Successfully" : 
             "Not Connected Successfully");
 
+        SqlHelper.Insert("Kathmandu Nayabazar", "Sindhupalchok", "Kathmandu", "2", "44600"); 
     }
 }
