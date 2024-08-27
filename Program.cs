@@ -9,6 +9,8 @@ using ConsoleApp1.Demos;
 using ConsoleApp1.Model;
 using CSharp_Fundamentals.Demos;
 using CSharp_Fundamentals.Helper;
+using CSharp_Fundamentals.Inheritance;
+using CSharp_Fundamentals.Interface;
 
 //Console.WriteLine("------------------------------------------");
 //Console.WriteLine("SN\tName\t\tRoll Number");
@@ -83,10 +85,10 @@ internal class Program
         //ConversionDemo.ShowCoalese(null);
         //ConversionDemo.ShowAssociativiy();
 
-        Console.WriteLine(SqlHelper.IsConnected() ? 
-            "Connected Successfully" : 
-            "Not Connected Successfully");
+        //SqlOperationsDemo.Test();
 
-        SqlHelper.Insert("Kathmandu Nayabazar", "Sindhupalchok", "Kathmandu", "2", "44600"); 
+        InheritanceDemo.Show();
+        InterfaceDemo.Show(new Motorola());
+
     }
 }
