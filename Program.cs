@@ -88,10 +88,10 @@ internal class Program
 
         //SqlOperationsDemo.Test();
 
-        InheritanceDemo.Show(); 
+        //InheritanceDemo.Show(); 
         //InterfaceDemo.Show(new Motorola());
 
-        
+        CollectionDemo.Show();
 
     }
 }
