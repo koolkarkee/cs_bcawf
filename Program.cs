@@ -11,6 +11,7 @@ using CSharp_Fundamentals.Demos;
 using CSharp_Fundamentals.Helper;
 using CSharp_Fundamentals.Inheritance;
 using CSharp_Fundamentals.Interface;
+using CSharp_Fundamentals.Model;
 
 //Console.WriteLine("------------------------------------------");
 //Console.WriteLine("SN\tName\t\tRoll Number");
@@ -87,8 +88,10 @@ internal class Program
 
         //SqlOperationsDemo.Test();
 
-        InheritanceDemo.Show();
-        InterfaceDemo.Show(new Motorola());
+        InheritanceDemo.Show(); 
+        //InterfaceDemo.Show(new Motorola());
+
+        
 
     }
 }

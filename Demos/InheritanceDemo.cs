@@ -1,5 +1,6 @@
 ﻿using CSharp_Fundamentals.Inheritance;
 using CSharp_Fundamentals.Interface;
+using CSharp_Fundamentals.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,8 +10,7 @@ using System.Threading.Tasks;
 namespace CSharp_Fundamentals.Demos
 {
     internal static class InheritanceDemo
-    {
-
+    { 
         private static void DemoOfficer()
         {
             //instantiation of base class 
@@ -52,12 +52,41 @@ namespace CSharp_Fundamentals.Demos
             traffic.Helpme(); //use this method to indirectly access the Help() method
         }
 
+        private static void DemoAbstract()
+        {
+            //Shape shape = new Shape();
+            Circle circle = new Circle();
+            circle.Radius = 7;
+            circle.ShowArea();
+        }
+
+        private static void DemoSealed()
+        {
+            FileHandler fileHandler = new FileHandler();
+        }
+
+        private static void DemoEnums()
+        {
+            //suppose that we have inserted in db
+            Console.WriteLine($"Key = {CRUDEnums.CREATED} and Value = {(int)CRUDEnums.CREATED}");
+        }
+
         public static void Show()
         {
             DemoOfficer();
 
             Console.WriteLine("--------------------");
-            DemoTraffic();            
+            DemoTraffic();
+            //
+            Console.WriteLine("--------------------");
+
+            DemoAbstract();
+            Console.WriteLine("--------------------");
+
+            DemoSealed();
+            Console.WriteLine("--------------------");
+
+            DemoEnums(); 
         } 
 
     }

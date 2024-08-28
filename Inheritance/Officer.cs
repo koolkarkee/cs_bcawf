@@ -24,8 +24,8 @@ namespace CSharp_Fundamentals.Inheritance
         //constructor 
         public Officer() {
             Console.WriteLine("Officer Constructor called from base class... ");
-            this.Salary = 5000;
-            this.Level = 1;
+            this.Salary = 5000; //initialize private member
+            this.Level = 1; //initialize protected 
         }
 
         //overloaded constructor 
@@ -41,14 +41,15 @@ namespace CSharp_Fundamentals.Inheritance
             Console.WriteLine($"{this.Name} have been arrested!");
         }
 
-        //allowing this method to be overridden in the derived class from the base class
+        //allowing this method to be overridden in the derived class from the
+        //base class
         public virtual void Fine(double amount)
         {
             Console.WriteLine($"You have been fined ${amount}");
         }
 
 
-        //another public virtual method  
+        //another virtual method  
         protected virtual void Help()
         {
             Console.WriteLine($"Help needed (for {this.Name})!");

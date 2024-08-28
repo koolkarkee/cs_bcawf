@@ -1,14 +1,16 @@
-﻿using CSharp_Fundamentals.Interface;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CSharp_Fundamentals.Interface;
 
-namespace CSharp_Fundamentals.Inheritance
+namespace CSharp_Fundamentals.Model
 {
     public class Motorola : IPhone
     {
+        public Motorola() { }
+
         void IPhone.MakeCall()
         {
             Console.WriteLine("Making call");

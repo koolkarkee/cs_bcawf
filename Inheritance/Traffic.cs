@@ -33,7 +33,7 @@ namespace CSharp_Fundamentals.Inheritance
             base.Help();
 
             //or overload it as below: 
-            //Console.WriteLine("Help needed (for traffic)!");
+            Console.WriteLine("Help needed (for traffic)!");
         }
 
         //invoke this to call Help() method 
