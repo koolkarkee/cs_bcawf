@@ -91,7 +91,8 @@ internal class Program
         //InheritanceDemo.Show(); 
         //InterfaceDemo.Show(new Motorola());
 
-        CollectionDemo.Show();
+        //CollectionDemo.Show();
+        //DelegateDemo.Show();
 
     }
 }

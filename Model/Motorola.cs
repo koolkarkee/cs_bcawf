@@ -9,6 +9,8 @@ namespace CSharp_Fundamentals.Model
 {
     public class Motorola : IPhone
     {
+        public string VersionNumber { get; }
+
         public Motorola() { }
 
         void IPhone.MakeCall()
