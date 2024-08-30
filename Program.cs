@@ -93,6 +93,7 @@ internal class Program
 
         //CollectionDemo.Show();
         //DelegateDemo.Show();
-
+        //EventDemo.Show();
+        //LINQDemo.Show();
     }
 }
